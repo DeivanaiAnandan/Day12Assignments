@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        form{
+            margin-left:50px;
+            margin-top:50px;
+        }
+     .star{
+        color:red;
+     }
+     .checked{
+        color:orange;
+     }
+     label{    
+        margin-top: 10px;
+     }
+    th, td, h1{
+        text-align:center;
+    }
+    .alignleft{
+        text-align:left;
+    }
+    .arwidth{
+        width: 1200px;
+       
+    }
+    .subbtn{
+        margin-top:10px;
+    }
+    table{
+        width: 95% !important;
+    }
+    @media only screen and (max-width: 700px) {
+        .arwidth{
+        width: 500px !important;
+       
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form class="form-horizontal" action="" method="post">
+        <label class ="font-weight-bold" for="">Name <span class="star">*</span></label><br>
+        <div class="row">
+            <div class="col-md-2">
+              <input type="text" class="form-control" placeholder="">
+              <label for="" >First </label>
+            </div>
+            <div class="col-md-2">
+              <input type="text" class="form-control" placeholder="">
+              <label for="">Last </label>
+            </div>
+          </div>
+          
+        <div class="row">
+            <div class="col-md-4">
+                <label class ="font-weight-bold" for="">Email <span class="star">*</span></label>
+              <input type="email" class="form-control" placeholder="">
+              
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            <label class ="font-weight-bold" for="">Your Experience <span class="star">*</span> </label>
+        </div>
+        </div>
+        <div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            <p>Overall, how would you rate your experience with us?</p>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            <p class ="font-weight-bold">How satisfied are you with? <span class="star">*</span></p>
+        </div>
+        </div>
+        <table class="table table-striped ">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Very Unsatisfied</th>
+                <th>Unsatisfied</th>
+                <th>Neutral</th>
+                <th>Sastified</th>
+                <th>Very Sastified</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="alignleft">Purchase</th>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+              </tr>
+              <tr>
+                <th class="alignleft">Service</th>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+              </tr>
+              <tr>
+                <th class="alignleft">Company Overall</th>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                  <label class="form-check-custom">
+                    <input type="radio" name="radio">
+                    
+                  </label>
+                </td>
+                <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                     
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+                  <td>
+                    <label class="form-check-custom">
+                      <input type="radio" name="radio">
+                      
+                    </label>
+                  </td>
+              </tr>
+                
+              </tbody>
+              </table>
+              <div class="row">
+                <div class="col-md-4">
+                <p class ="font-weight-bold">How likely are you to?<span class="star">*</span></p>
+            </div>
+            </div>
+            <table class="table table-striped ">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Very Unlikely</th>
+                    <th>Unlikely</th>
+                    <th>Neutral</th>
+                    <th>Likely</th>
+                    <th>Very Likely</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="alignleft">Buy from us again</th>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                  </tr>
+                  <tr>
+                    <th class="alignleft">Recommend our <br>product to others</th>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                  </tr>
+                  <tr>
+                    <th class="alignleft">Recommend our <br>company to others</th>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                      <label class="form-check-custom">
+                        <input type="radio" name="radio">
+                        
+                      </label>
+                    </td>
+                    <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                      <td>
+                        <label class="form-check-custom">
+                          <input type="radio" name="radio">
+                          
+                        </label>
+                      </td>
+                  </tr>
+                    
+                  </tbody>
+                  </table>
+                  <div class="row">
+                    <div class="col-md-4">
+                    <p class ="font-weight-bold">Additional comments or Suggestions</p>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                    <textarea class="form-control arwidth" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="subbtn">
+                        <input class="btn btn-secondary subbtn" type="submit" value="Submit">
+                </div>
+                </div>
+                
+    </form>
+</body>
+</html>
